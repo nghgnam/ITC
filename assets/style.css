@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+/* Header */
+
+.header {
+    height: 40px;
+    background: #7979e1;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header-list-item {}
+
+.header-list-link {
+    font-size: 1rem;
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+/* container */
+
+content {}
+
+.content-container {}
+
+.container-sub-heading {
+    color: red;
+    margin: 12px 16px;
+    font-size: 1.6rem;
+}
+
+.container-title {
+    margin: 12px 16px;
+    color: #4848a7;
+    font-size: 1.7rem;
+}
+
+.container-time {
+    color: #817c7c;
+    margin: 12px 16px;
+}
+
+.container-sub-title {
+    font-size: 1.4rem;
+    margin: 12px 16px;
+    font-weight: 600;
+}
+
+.container-sub {
+    font-size: 1.2rem;
+    margin: 12px 16px;
+}
+
+.container-img {}
+
+
+/* bai -2  */
+
+.login-form {
+    margin: 20px 39%;
+    width: 300px;
+    border: 1px solid #c8c8c8;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.login-form-heading {
+    font-size: 1.6rem;
+    margin: 12px 0;
+    border-bottom: 1px solid #9e9999;
+}
+
+.login-sub {
+    font-size: 1.1rem;
+}
+
+#login-acc {
+    border-radius: 11px;
+    padding: 4px 6px;
+    border: 1px solid #7e7878;
+}
+
+#login-pass {
+    border-radius: 11px;
+    padding: 4px 6px;
+    border: 1px solid #7e7878;
+}
+
+.btn-log {
+    padding: 4px 6px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #999;
+}
+
+.account {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
+
+.password {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 0;
+}
